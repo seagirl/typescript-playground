@@ -1,0 +1,19 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "yoshizu",
+  "scripts": {
+    "lint": "eslint src/** --ext .ts,.tsx",
+    "lint:fix": "eslint --fix src/** --ext .ts,.tsx",
+    "build": "rm -rf dist && tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
