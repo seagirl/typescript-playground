@@ -4,7 +4,6 @@
     "module": "commonjs",
     "lib": [
       "esnext",
-      "esnext.asynciterable",
       "dom"
     ],
     "esModuleInterop": true,
